@@ -1,0 +1,45 @@
+@media(max-width: 992px){
+	.choose_us .wrap_item {
+		width: 80%;
+		margin:auto;
+		margin-bottom: 30px
+	}
+}
+@media(max-width: 767px){
+	.choose_us .wrap_item,
+	.meetOurTeam .title_meeet p {
+		width: 100%;
+	}
+}
+@media(max-width: 584px){
+	.meetOurTeam .wrapper {
+    	display: block;
+	}
+	.meetOurTeam .wrapper .img_auther {
+		width: 100%;
+		height: 100%
+	}
+	.meetOurTeam .wrapper .img_auther img{
+		height: auto
+	}
+	.wrapper .text_tieusu {
+		width: 100%;
+	}
+	.banner_main .title_banner_main h1 {
+    	font-size: 37px;
+	}
+	.banner_main img {
+    	height: 240px;
+	}
+	.banner_main .title_banner_main {
+		left: 0;
+		width: 100%;
+		transform: translate(0, -50%);
+	}
+}
+
+
+
+
+
+

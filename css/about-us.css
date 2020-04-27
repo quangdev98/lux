@@ -1,0 +1,164 @@
+.choose_us{
+	padding-top:60px;
+	padding-bottom: 120px
+}
+.choose_us h2{
+	font-size: 36px;
+    line-height: 1.13;
+    letter-spacing: 1.1px;
+    color: #2f2f2f;
+    margin-bottom: 70px
+}
+.choose_us .wrap_item{
+	position: relative;
+	transition: .4s
+}
+.choose_us .wrap_item img{
+	width: 100%;
+	object-fit: cover;
+}
+.choose_us .wrap_item .text-item{
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	background-color: #f1f1f1;
+	transition: .4s
+}
+.choose_us .wrap_item .wrap_item{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	padding:20px;
+	transform: translate(0, -50%);
+	text-align: center;
+	transition: .4s
+}
+.choose_us .wrap_item .text-item h3{
+	font-size: 30px;
+    line-height: 0.97;
+    letter-spacing: 1.3px;
+    color: #000;
+    margin-bottom: 20px
+}
+.choose_us .wrap_item .text-item p{
+	font-size: 14px;
+    line-height: 1.5;
+    color: #696969
+}
+.choose_us .wrap_item:hover .text-item{
+	background:transparent;
+}
+.choose_us .wrap_item:hover .text-item h3,
+.choose_us .wrap_item:hover .text-item p{
+	color: #fff;
+}
+/*meet out*/
+.meetOurTeam{
+	padding-bottom: 60px
+}
+.meetOurTeam .title_meeet{
+	margin-bottom: 70px
+}
+.meetOurTeam .title_meeet h2{
+	line-height: 0.84;
+    letter-spacing: 1.1px;
+    text-align: center;
+    color: #252830;
+    margin-bottom: 30px;
+    font-size: 55px;
+    font-family: 'Oswald';
+}
+.meetOurTeam .title_meeet p{
+	text-align: center;
+	width: 75%;
+	margin:auto;
+}
+.meetOurTeam .wrapper{
+	display: inline-flex;
+	background:#f4f4f4;
+	margin-bottom: 30px
+}
+.meetOurTeam .wrapper .img_auther{
+	width: 230px;
+	height: 230px;
+	overflow:hidden;
+	display: inline-block;
+}
+.meetOurTeam .wrapper .img_auther img{
+	transition: .4s;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.meetOurTeam .wrapper .img_auther:hover img{
+	transform: scale(1.1);
+}
+.wrapper .text_tieusu{
+	padding:20px;
+	display: inline-block;
+	width: calc(100% - 230px);
+}
+.wrapper .text_tieusu h3{
+	font-size: 24px;
+    line-height: 1.21;
+    letter-spacing: 1px;
+    color: #000;
+    margin-bottom: 7px;
+    font-family: 'Oswald';
+}
+.wrapper .text_tieusu span.position{
+	font-size: 14px;
+    line-height: 1.64;
+    color: #a2a2a2;
+    margin-bottom: 10px;
+}
+.wrapper .text_tieusu p{
+	font-size: 14px;
+    line-height: 1.64;
+    color: #5e5e5e;
+    width: 100%;
+    margin-bottom: 0
+}
+.meetOurTeam .travel_uss{
+	display: inline-block;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	background:#000;
+	color:#fff;
+	text-transform: uppercase;
+    padding: 20px 25px;
+    text-decoration: none
+}
+.choose_us .wrap_item .text-item .morecontent{
+	display: none
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

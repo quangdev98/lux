@@ -1,0 +1,179 @@
+@media(max-width: 1366px){
+	.modal.fade .modal-dialog {
+	    max-width: 95%;
+	}
+	.wrap_modal .left_modal {
+	    width: 33%;
+	}
+	.wrap_modal .right_modal {
+    	width: 67%;
+	}
+}
+@media(max-width: 1024px){
+	.banner_main_slide .carousel-item img{
+		width: 100%;
+		object-fit: cover;
+		height: 70vh
+	}
+	.form_modal .date_number {
+		display: block;
+	}
+	.date_number .datetime {
+	    width: 100%;
+	    margin-right: 0
+	}
+	.date_number .number_alu {
+    	width: calc(50% - 10px);
+    	margin-right: 8px;
+    	margin-left: 0
+	}
+	.date_number .number_alu.alu2{
+		margin-left: 8px;
+    	margin-right: 0;
+	}
+}
+@media(max-width: 992px){
+	.total_form_mobile{
+		display: inline-block;
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+    background: #fff;
+    width: 100%;
+    left: 0;
+    padding:8px 20px;
+    box-shadow: 1px 6px 6px 7px rgba(0, 0, 0, 0.15);
+	}
+	.total_form_mobile p{
+		display: inline-block;
+		margin:0;
+		padding:0;
+	}
+	.total_form_mobile p span:first-child{
+		display: block;
+		font-size: 16px;
+		color: #797979;
+		font-weight: 600;
+	}
+	.total_form_mobile p span.number-{
+		font-size: 18px;
+    font-weight: bold;
+    color: #000;
+	}
+	.total_form_mobile a{
+		display: block;
+    float: right;
+    background-color: #faba40;
+    padding: 13.5px 15px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 600;
+	}
+	.nav_refer .link_book_tour {
+    	display: none;
+	}
+	.nav_refer .menu_left ul li a {
+    	padding: 18.5px 15px;
+	}
+	.travel_guide.gui_tour .wrapper_right {
+		padding-left: 0
+	}
+	.footer_last {
+    	margin-bottom: 69px;
+	}
+	.modal.fade .modal-dialog {
+    	max-width: 100%;
+	}
+	.wrap_modal {
+		display: block;
+	}
+	.wrap_modal .left_modal {
+    	width: 100%;
+	}
+	.wrap_modal .left_modal img{
+		height: auto
+	}
+	.wrap_modal .right_modal {
+    	width: 100%;
+	}
+}
+@media(max-width: 767px){
+	.nav_refer .menu_left ul li a {
+		font-size: 14px
+	}
+	.nav_refer .menu_left ul li a {
+	    padding: 14.5px 15px;
+	}
+	.total_form_mobile p span:first-child {
+		font-size: 14px
+	}
+	.total_form_mobile p span.number- {
+    	font-size: 16px;
+	}
+	.total_form_mobile a {
+	    font-size: 13px;
+	    padding: 11.5px 15px;
+	}
+	.gui_tour .deep_tour_left ul a {
+		line-height: 0
+	}
+	.gui_tour .deep_tour_left ul {
+		margin-bottom: 10px
+	}
+	.travel_guide .card_item h3 {
+		font-size: 15px
+	}
+	.accard .wra{
+		font-size: 13px
+	}
+	.banner_us .wrap_baner_us {
+    	padding: 40px 0;
+	}
+	.banner_us .wrap_baner_us .lik{
+		display: block;
+		margin-bottom: 30px;
+		font-size: 14px
+	}
+	.banner_us .wrap_baner_us p {
+		font-size: 22px
+	}
+	.banner_us .wrap_baner_us img{
+		width: 40px;
+		height: auto;
+		object-fit: cover;
+	}
+	.banner_us .wrap_baner_us .title {
+	    font-size: 20px;
+	    width: 100%;
+	    margin-bottom: 30px;
+	}
+	.banner_main_slide .carousel-indicators li {
+		height: 40px
+	}
+	.travel_guide.gui_tour h1 {
+    	font-size: 26px;
+	}
+	.footer_last {
+    	margin-bottom: 62px;
+	}
+}
+@media (max-width: 567px){
+.nav_refer .menu_left ul li a {
+    padding: 13.5px 13px;
+    font-size: 12px
+}
+.wrap_modal .left_modal div p {
+    font-size: 21px;
+   }
+   .form_modal input {
+   	height: 40px
+   }
+   .cate1 ._current, .cate2 ._current {
+   	height: 40px
+   }
+   .category .cate1 .ti-angle-down,
+   .category .cate2 .ti-angle-down {
+	    top: 14px;
+	    font-size: 11px;
+	}
+}

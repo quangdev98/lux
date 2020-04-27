@@ -1,0 +1,434 @@
+ img {
+            width: 100%;
+            object-fit: cover;
+        }
+        
+        .menu {
+            padding: 10px 0;
+        }
+        
+        .nav-link {
+            text-transform: uppercase;
+            color: #333;
+            border-bottom: 1px solid transparent;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            padding: .5rem 0;
+            transition: all .25s ease;
+            font-size: 18px;
+            font-family: 'Oswald';
+        }
+        
+        .nav-link:hover {
+            border-bottom-color: #72434f;
+            transition: all 0.3s ease-in;
+            color: #333;
+        }
+        
+        .img-banner {
+            position: relative;
+        }
+        
+        .search-banner {
+            padding: 15px;
+            position: absolute;
+            top: 20px;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        
+        #about {
+            padding: 50px 0;
+            background-color: #E9E1D8;
+        }
+        
+        .fonta {
+            font-family: 'Oswald';
+        }
+        
+        .fontb {
+            font-family: fontn;
+        }
+        
+        .tt {
+            text-align: center;
+        }
+        
+        .tt h1 {
+            font-family: 'Oswald';
+            line-height: 40px;
+            padding-bottom: 20px;
+            font-size: 35px;
+        }
+        
+        .ct {
+            font-size: 18px;
+            text-transform: none;
+        }
+        
+        .tt h1::after {
+            content: '';
+            display: block;
+            margin: 1rem 0 1.5rem;
+            background: #424242;
+            width: 4rem;
+            height: 1px;
+            text-align: center;
+            margin: auto;
+            margin-top: 20px!important;
+        }
+        
+        .about .ct {
+            text-align: center;
+            font-size: 18px;
+            font-family: fontb;
+            text-transform: none;
+        }
+        
+        .card-content {
+            padding: 15px;
+            width: 100%;
+            background-color: #72434f;
+            color: #FFF;
+            margin-top: 10px;
+        }
+        
+        .margin-30 {
+            margin: 30px;
+        }
+        
+        .icon-wrap {
+            float: right;
+            margin-top: 15px;
+            font-size: 25px;
+            font-weight: 500;
+        }
+        
+        .card-content h3 {
+            font-family: 'Oswald';
+            text-transform: uppercase;
+            margin-bottom: 0;
+        }
+        
+        .card-teaser {
+            font-family: fontb;
+            font-size: 18px;
+        }
+        
+        .list-item-about {
+            margin-top: 20px;
+        }
+        
+        #section-home {
+            padding: 60px 0;
+            background-color: #FFF;
+        }
+        
+        .list-item-sectionhome .ki {
+            font-size: 65px;
+        }
+        
+        .link-sectionhome div {
+            border-radius: 50%;
+            width: 100px!important;
+            height: 100px!important;
+            background-color: #e9e9e9;
+            text-align: center;
+            margin: auto;
+        }
+        
+        .nav-tabs .nav-link {
+            border: 0px;
+            font-size: 30px;
+        }
+        
+        .nav-fill .nav-item {
+            flex: none;
+        }
+        
+        .nav-fill .nav-item i {
+            font-size: 30px;
+        }
+        
+        .nav-tabs {
+            border: none;
+        }
+        
+        .link-sectionhome p {
+            text-align: center;
+            margin: auto;
+            font-family: 'Oswald';
+            font-size: 20px!important;
+        }
+        
+        .link-sectionhome span {
+            padding: 15px;
+            color: #333;
+        }
+        
+        a {
+            color: #333;
+        }
+        
+        a:hover {
+            text-decoration: none;
+            color: #333;
+        }
+        
+        .link p {
+            color: #333;
+            font-size: 18px;
+        }
+        
+        .tourlestype h3 {
+            padding: 10px 15px;
+            background-color: #000;
+            color: #FFF;
+            font-weight: 400;
+            text-transform: uppercase;
+            font-size: 16px;
+            letter-spacing: .3px;
+            border-radius: 5px;
+        }
+        
+        .destination {
+            padding: 80px 0;
+            background-color: #E9E9E9;
+        }
+        
+        .card-title {
+            font-family: 'Oswald';
+        }
+        
+        .destination-ct {
+            padding: 8px;
+            background-color: #FFF;
+        }
+        
+        .destination-h3 {
+            font-size: 16px;
+            font-weight: 600;
+            color: #000;
+        }
+        
+        .destination-ct p {
+            font-size: 18px;
+        }
+        
+        .destination-h3 {
+            margin-top: 3px;
+        }
+        
+        .price a {
+            font-size: 16px!important;
+            color: #72434f!important;
+            font-weight: 600;
+        }
+        
+        .price span {
+            font-size: 16px!important;
+            text-transform: uppercase;
+            color: #72434f!important;
+        }
+        
+        .bakg-destination {
+            margin-top: 25px;
+        }
+        
+        .padd-10 {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        
+        .destination .tourlestype {
+            margin-top: 60px;
+        }
+        
+        #voyages {
+            padding-top: 40px;
+        }
+        
+        .imgvoigaes {
+            max-width: 300px;
+            margin: auto;
+        }
+        
+        .voyages .ct {
+            margin-top: 10px;
+            text-align: center;
+        }
+        
+        .col2dos5 {
+            padding-right: 10px;
+            padding-left: 10px;
+            position: relative;
+        }
+        
+        .img-voygaes {
+            position: relative;
+            height: 250px;
+        }
+        
+        .card-location {
+            color: #FFF;
+            font-size: 15px;
+            position: absolute;
+            top: 10px;
+            left: 30px;
+            font-family: 'Oswald';
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+        
+        .card-location span {
+            font-size: 16px;
+            margin-top: -2px;
+        }
+        
+        .card-content-voygaes {
+            color: #FFF;
+            font-size: 18px;
+            position: absolute;
+            bottom: 10px;
+            left: 30px;
+            font-family: 'Oswald';
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        
+        .card-category {
+            font-family: fontb;
+            text-transform: none;
+            font-size: 16px;
+        }
+        
+        .card-title {
+            color: #fff;
+            text-transform: uppercase;
+            transition: all .25s ease;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 1.2;
+        }
+        
+        .content {
+            position: relative;
+            max-width: 400px;
+            margin: auto;
+            overflow: hidden;
+        }
+        .content a{
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+        .content .content-overlay {
+            background: radial-gradient(rgba(114, 67, 79, .9), rgba(114, 67, 79, .6));
+            position: absolute;
+            width: 100%;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            opacity: 0;
+            -webkit-transition: all 0.4s ease-in-out 0s;
+            -moz-transition: all 0.4s ease-in-out 0s;
+            transition: all 0.4s ease-in-out 0s;
+        }
+        .content a::before{
+             content:"";
+            position: absolute;
+            top: 0;
+            left:0;
+            width: 100%;
+            height: 30%;
+            bottom: auto;
+            background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,0));
+        }
+        .content a::after{
+            content:"";
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 70%;
+            top: auto;
+            left:0;
+            background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.4));
+        }
+        .content:hover .content-overlay {
+            opacity: 1;
+        }
+        
+        .content-image {
+            width: 100%;
+            height: 270px;
+        }
+        
+        .content-details {
+            position: absolute;
+            text-align: left;
+            width: 100%;
+            top: 10px;
+            left: 0px;
+            padding-left: 10px
+        }
+        
+        .content:hover .content-details {
+            top: 10px;
+            opacity: 1;
+        }
+        
+        .content-details {
+            color: #fff;
+            font-weight: 500;
+            letter-spacing: 0.15em;
+            margin-bottom: 0.5em;
+            text-transform: uppercase;
+            font-family: 'Oswald';
+        }
+        
+        .content-detailsvoigaes {
+            position: absolute;
+            font-family: 'Oswald';
+            bottom: 10px;
+            left: 10px;
+            z-index: 1;
+        }
+        
+        .content-detailsvoigaes i {
+            color: #FFF;
+            font-family: fontb;
+        }
+        
+        .content-detailsvoigaes h3 {
+            color: #FFF;
+            font-size: 18px;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+        
+        .backgorund-voigaes {
+            margin-top: 20px;
+        }
+        
+        .tourles-destination {
+            padding: 15px 50px;
+            text-transform: uppercase;
+            font-size: 15px;
+            margin-top: 20px;
+            background-color: #FFF;
+        }
+        
+        .tourles-destination h3 {
+            font-size: 18px;
+            border-bottom: 1px solid #000;
+        }
+        
+        #voyages {
+            background-color: #F1F1F1;
+            padding: 50px 0px;
+        }
+        
+        

@@ -1,0 +1,312 @@
+@media(max-width: 1360px){
+	.exploreOur .raper_left h2,
+	.our_lux .title_our h2,
+	.travel_guide .title_guide h2 {
+		font-size: 48px
+	}
+	.travel_guide .wrapper_right {
+	    padding-left: 45px;
+	}
+	.banner_footer h3 {
+		font-size:36px
+	}
+	.number_rap .item_rap span {
+    	font-size: 50px;
+	}
+}
+@media(max-width: 1185px){
+	.item_our .content_our h3 {
+		font-size:17px
+	}
+	.exploreOur .raper_left h2,
+	.our_lux .title_our h2,
+	.travel_guide .title_guide h2 {
+		font-size: 44px
+	}
+	.travel_guide .wrapper_right {
+	    padding-left: 0px;
+	}
+	.banner_footer h3 {
+		font-size:33px
+	}
+	.content_our .shop_cart .price span {
+    	font-size: 22px;
+	}
+	.nav-link {
+		font-size: 16px
+	}
+}
+@media(max-width: 991px){
+	.wrapper_right .auther_ h2 {
+    	font-size: 20px;
+    	line-height: 1;
+	}
+	.travel_guide .wrapper_right .auther_ {
+		padding:20px 15px;
+	}
+	.wrapper_right .guide_phone{
+    	padding:20px 15px;
+	}
+	.wrapper_right .guide_phone .phone {
+    	font-size: 18px;
+	}
+	.exploreOur .raper_left h2,
+	.our_lux .title_our h2,
+	.travel_guide .title_guide h2 {
+		font-size: 40px
+	}
+	.number_rap .item_rap span {
+    	font-size: 43px;
+	}
+	.best_destination .title_besst_des h2 {
+		font-size:36px
+	}
+	.tt-footer {
+    	margin-top: 30px;
+	}
+	.menu .navbar-toggler {
+	    padding: 0;
+	    width: 32px;
+	    height: 20px;
+	    position: relative;
+	    border-radius: 0
+	}
+	.menu .navbar-toggler span{
+		width: 100%;
+		height: 2px;
+		background:black;
+		position: relative;
+		transition: .4s
+	}
+	.menu .navbar-toggler span::before,
+	.menu .navbar-toggler span::after{
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 2px;
+		left: 0;
+		background:black;
+		transition: .4s
+	}
+	.menu .navbar-toggler span::before{
+		top: -8px;
+	}
+	.menu .navbar-toggler span::after{
+		bottom: -8px
+	}
+	.menu .icon_bar span{
+		background:transparent;
+	}
+	.menu .icon_bar span::before{
+		top: 0;
+		transform: rotate(45deg);
+	}
+	.menu .icon_bar span::after{
+		bottom: 0;
+		transform: rotate(135deg);
+	}
+	.navbar-nav {
+    	padding-top: 30px;
+	}
+	.menu .langue ul{
+		margin:0 16px;
+	}
+	.mobile_show{
+		display: block;
+	}
+	.menu .searchheader {
+		display: none
+	}
+	.mobile_show .search-box{
+		padding:0 15px;
+	}
+	.mobile_show .search-box input{
+		width: calc(100% - 50px);
+		padding:5px 20px;
+		border:1px solid #333;
+		font-size: 18px;
+		letter-spacing:0.8px;
+		font-family: 'Oswald';
+		border-radius: 3px
+	}
+	.mobile_show .search-box button{
+		background:none;
+		border:none;
+		padding:0;
+	}
+	.mobile_show .search-box button i{
+		font-size:27px;
+		padding-right: 5px
+	}
+	.footernav {
+		display: none
+	}
+	.linkfooterend {
+		padding:0 6px;
+	}
+	.icon-footer{
+		text-align: center;
+	}
+	.img-footer {
+    	float: none;
+	}
+	.svg_img{
+		text-align: center;
+	}
+	/*menu_drop_down*/
+	.nav-item .menu_drop_down{
+		transform: none;
+		visibility: visible;
+		opacity: 1;
+		position:relative;
+		display: none;
+		transition: .4s
+	}
+	.nav-item.hover_menu_down .menu_drop_down{
+		display: block;
+	}
+	.icon_down{
+		right: 3px;
+		transition: .4s
+	}
+	.nav-item.hover_menu_down .icon_down{
+		transform: rotate(-135deg);
+		border-color: #f9ad1b
+	}
+	.nav-item.hover_menu_down .nav-link{
+		color: #f9ad1b
+	}
+}
+@media(max-width: 767px){
+	.item_our .content_our h3 {
+		font-size:17px
+	}
+	.exploreOur .raper_left h2,
+	.our_lux .title_our h2,
+	.travel_guide .title_guide h2 {
+		font-size: 33px
+	}
+	.banner_footer h3 {
+		font-size:30px
+	}
+	.content_our .shop_cart .price span {
+    	font-size: 18px;
+	}
+	.best_destination .title_besst_des h2 {
+		font-size:32px
+	}
+	.travel_guide .wrapper_right {
+		padding-top: 30px
+	}
+	.exploreOur {
+	    margin-bottom: 40px;
+	    padding-top: 40px;
+	}
+	.wrap_our_lux {
+		margin-top: 40px
+	}
+	.our_lux .view_more a {
+    	padding: 12px 47px;
+	}
+	.travel_guide {
+    	padding: 40px 0;
+	}
+	.best_destination {
+		padding:40px 0;
+	}
+	.icon-footer a {
+	    position: relative;
+	    width: 35px;
+	    height: 35px;
+    	font-size: 18px;
+	}
+	.img-footer img {
+	    width: 115px;
+	    padding: 20px 10px;
+	}
+	.footer_last .copy_right,
+	.footer_last ul {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	.footer_last ul{
+		padding:20px 0;
+		float: none
+	}
+	.footer_last {
+			padding:10px 0;
+	}
+	.footerend .wrap_for{
+		display: none
+	}
+}
+@media(max-width: 575px){
+	.our_lux{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.exploreOur .raper_left .number_rap {
+		padding:0;
+	}
+	.banner_main .title_banner_main h1 {
+    	font-size: 45px;
+	}
+	.banner_main .title_banner_main p {
+    	font-size: 12px;
+	}
+	.exploreOur .raper_left h2,
+	.our_lux .title_our h2,
+	.travel_guide .title_guide h2 {
+		font-size: 30px
+	}
+	.number_rap .item_rap span {
+    	font-size: 35px;
+	}
+	.best_destination .title_besst_des h2 {
+	    font-size: 30px;
+	}
+	.banner_footer h3 {
+	    font-size: 16px;
+	}
+	.banner_footer a {
+    	width: auto;
+    	padding: 4.5px 17px;
+	}
+	.our_Sort ul li {
+		margin: 2px;
+    	padding: 8px 10px;
+	}
+	.our_Sort ul li a {
+		font-size: 10px;
+		letter-spacing: 0.8px;
+	}
+}
+ @media (min-width: 1024px) {
+            .col2dos5 {
+                width: 20%;
+                float: left;
+            }
+        }
+        
+        @media (max-width: 1023px) {
+            .col2dos5 {
+                width: 33.33%;
+                float: left;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .col2dos5 {
+                width: 50%;
+                float: left;
+            }
+        }
+        
+        @media (max-width: 624px) {
+            .col2dos5 {
+                width: 100%;
+                float: left;
+            }
+        }
+        
